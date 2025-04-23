@@ -1,0 +1,654 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('user-id')/calendarView",
+    "value": [
+      {
+        "@odata.etag": "W/\"etag-value\"",
+        "id": "meeting-id-1",
+        "createdDateTime": "2025-04-15T19:19:03.6271724Z",
+        "lastModifiedDateTime": "2025-04-15T19:28:20.8292689Z",
+        "changeKey": "change-key-value",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "America/Los_Angeles",
+        "originalEndTimeZone": "America/Los_Angeles",
+        "iCalUId": "ical-uid-value-1",
+        "uid": "uid-value-1",
+        "reminderMinutesBeforeStart": 10,
+        "isReminderOn": true,
+        "hasAttachments": true,
+        "subject": "Project Team Meeting",
+        "bodyPreview": "Project Team Meeting\r\nMeeting organizer is inviting you to a scheduled video meeting. Join using the link below.\r\nMeeting ID: 123456789\r\nPasscode: 123456\r\n\r\nThis event has been updated\r\nChanged: ",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=meeting-id-1&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": "https://example.zoom.us/j/123456789?pwd=abcdefghijklmnop",
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+          "response": "accepted",
+          "time": "2025-04-15T19:19:20.8951522Z"
+        },
+        "body": {
+          "contentType": "html",
+          "content": "<html><body>Meeting details and agenda</body></html>"
+        },
+        "start": {
+          "dateTime": "2025-04-23T16:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2025-04-23T17:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "location": {
+          "displayName": "Conference Room A (with Video Conferencing)",
+          "locationType": "default",
+          "uniqueId": "Conference Room A (with Video Conferencing)",
+          "uniqueIdType": "private"
+        },
+        "locations": [
+          {
+            "displayName": "Conference Room A (with Video Conferencing)",
+            "locationType": "default",
+            "uniqueId": "Conference Room A (with Video Conferencing)",
+            "uniqueIdType": "private"
+          }
+        ],
+        "recurrence": null,
+        "attendees": [
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Meeting Organizer",
+              "address": "organizer@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Conference Room A (with Video Conferencing)",
+              "address": "room-a@resources.example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member 1",
+              "address": "team-member1@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member 2",
+              "address": "team-member2@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member 3",
+              "address": "team-member3@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "User",
+              "address": "user@example.com"
+            }
+          }
+        ],
+        "organizer": {
+          "emailAddress": {
+            "name": "Meeting Organizer",
+            "address": "organizer@example.com"
+          }
+        },
+        "onlineMeeting": null
+      },
+      {
+        "@odata.etag": "W/\"etag-value-2\"",
+        "id": "meeting-id-2",
+        "createdDateTime": "2025-04-19T19:45:44.1186522Z",
+        "lastModifiedDateTime": "2025-04-19T19:48:35.6895834Z",
+        "changeKey": "change-key-value-2",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "GMT Standard Time",
+        "originalEndTimeZone": "GMT Standard Time",
+        "iCalUId": "ical-uid-value-2",
+        "uid": "uid-value-2",
+        "reminderMinutesBeforeStart": 10,
+        "isReminderOn": true,
+        "hasAttachments": true,
+        "subject": "Technical Seminar: Machine Learning Applications",
+        "bodyPreview": "Dear All,\r\n\r\nThank you for registering for our technical seminar on Machine Learning Applications.\r\n\r\nWe're looking forward to this session! Details below.\r\n\r\nAfter the seminar, the recording will be available",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=meeting-id-2&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": "https://example-university.zoom.us/j/987654321?pwd=qwertyuiop",
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": false,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+          "response": "notResponded",
+          "time": "0001-01-01T00:00:00Z"
+        },
+        "start": {
+          "dateTime": "2025-04-24T12:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2025-04-24T13:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "location": {
+          "displayName": "Online Seminar",
+          "locationType": "default",
+          "uniqueId": "Online Seminar",
+          "uniqueIdType": "private"
+        },
+        "locations": [
+          {
+            "displayName": "Online Seminar",
+            "locationType": "default",
+            "uniqueId": "Online Seminar",
+            "uniqueIdType": "private"
+          }
+        ],
+        "recurrence": null,
+        "attendees": [
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Seminar Coordinator",
+              "address": "seminars@example-university.edu"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Seminar Group",
+              "address": "seminar-group@example-university.edu"
+            }
+          },
+          {
+            "type": "optional",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Guest Speaker",
+              "address": "speaker@example-university.edu"
+            }
+          }
+        ],
+        "organizer": {
+          "emailAddress": {
+            "name": "Seminar Coordinator",
+            "address": "seminars@example-university.edu"
+          }
+        },
+        "onlineMeeting": null
+      },
+      {
+        "@odata.etag": "W/\"etag-value-3\"",
+        "id": "meeting-id-3",
+        "createdDateTime": "2025-04-17T19:41:06.5965862Z",
+        "lastModifiedDateTime": "2025-04-17T19:41:17.9380171Z",
+        "changeKey": "change-key-value-3",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "Eastern Standard Time",
+        "originalEndTimeZone": "Eastern Standard Time",
+        "iCalUId": "ical-uid-value-3",
+        "uid": "uid-value-3",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Work Session",
+        "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams Need help?\r\nJoin the meeting now\r\nMeeting ID: 123456789\r\nPasscode: ABCDEF\r\n________________________________\r\nFor organizers: Meeting options\r\n_____",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": "series-master-id-1",
+        "showAs": "busy",
+        "type": "exception",
+        "webLink": "https://outlook.office365.com/owa/?itemid=meeting-id-3&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "teamsForBusiness",
+        "allowNewTimeProposals": true,
+        "occurrenceId": "occurrence-id-1",
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+          "response": "accepted",
+          "time": "2025-04-08T17:12:45.282956Z"
+        },
+        "start": {
+          "dateTime": "2025-04-24T17:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2025-04-24T20:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "location": {
+          "displayName": "Meeting Room B",
+          "locationUri": "room-b@example.com",
+          "locationType": "conferenceRoom",
+          "uniqueId": "room-b@example.com",
+          "uniqueIdType": "directory",
+          "address": {
+            "street": "",
+            "city": "",
+            "state": "",
+            "countryOrRegion": "",
+            "postalCode": ""
+          },
+          "coordinates": {}
+        },
+        "locations": [
+          {
+            "displayName": "Meeting Room B",
+            "locationUri": "room-b@example.com",
+            "locationType": "conferenceRoom",
+            "uniqueId": "room-b@example.com",
+            "uniqueIdType": "directory",
+            "address": {
+              "street": "",
+              "city": "",
+              "state": "",
+              "countryOrRegion": "",
+              "postalCode": ""
+            },
+            "coordinates": {}
+          }
+        ],
+        "recurrence": null,
+        "attendees": [
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Project Manager",
+              "address": "project-manager@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member A",
+              "address": "team-member-a@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member B",
+              "address": "team-member-b@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member C",
+              "address": "team-member-c@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member D",
+              "address": "team-member-d@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "User",
+              "address": "user@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member E",
+              "address": "team-member-e@example.com"
+            }
+          },
+          {
+            "type": "resource",
+            "status": {
+              "response": "tentativelyAccepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Meeting Room B",
+              "address": "room-b@example.com"
+            }
+          }
+        ],
+        "organizer": {
+          "emailAddress": {
+            "name": "Project Manager",
+            "address": "project-manager@example.com"
+          }
+        },
+        "onlineMeeting": {
+          "joinUrl": "https://teams.microsoft.com/l/meetup-join/example-meeting-join-url"
+        }
+      },
+      {
+        "@odata.etag": "W/\"etag-value-4\"",
+        "id": "meeting-id-4",
+        "createdDateTime": "2025-01-23T21:16:58.2509445Z",
+        "lastModifiedDateTime": "2025-02-26T18:46:10.4495134Z",
+        "changeKey": "change-key-value-4",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "Eastern Standard Time",
+        "originalEndTimeZone": "Eastern Standard Time",
+        "iCalUId": "ical-uid-value-4",
+        "uid": "uid-value-4",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Virtual Drop-In Hours",
+        "bodyPreview": "Looking for support with writing? Join our virtual drop-in hours any Tuesday between 10 am -12 pm ET and stay for a short time or the whole two hours. A consultant will be available to help you set writing goals and provide feedback on your writing.",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": "series-master-id-2",
+        "showAs": "busy",
+        "type": "occurrence",
+        "webLink": "https://outlook.office365.com/owa/?itemid=meeting-id-4&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": "https://example-university.zoom.us/j/987654321",
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "zoom",
+        "allowNewTimeProposals": true,
+        "occurrenceId": "occurrence-id-2",
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+          "response": "organizer",
+          "time": "0001-01-01T00:00:00Z"
+        },
+        "start": {
+          "dateTime": "2025-04-29T14:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2025-04-29T16:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "location": {
+          "displayName": "Virtual Meeting",
+          "locationType": "default",
+          "uniqueIdType": "unknown",
+          "address": {},
+          "coordinates": {}
+        },
+        "locations": [],
+        "recurrence": null,
+        "attendees": [],
+        "organizer": {
+          "emailAddress": {
+            "name": "User",
+            "address": "user@example.com"
+          }
+        },
+        "onlineMeeting": null
+      },
+      {
+        "@odata.etag": "W/\"etag-value-5\"",
+        "id": "meeting-id-5",
+        "createdDateTime": "2025-01-03T16:38:14.8140645Z",
+        "lastModifiedDateTime": "2025-04-03T15:40:18.0085322Z",
+        "changeKey": "change-key-value-5",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "Eastern Standard Time",
+        "originalEndTimeZone": "Eastern Standard Time",
+        "iCalUId": "ical-uid-value-5",
+        "uid": "uid-value-5",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Weekly Team Meeting",
+        "bodyPreview": "Microsoft Teams meeting. Join now using the link below.\r\nMeeting ID: 987654321\r\nPasscode: ABCDEFG\r\n",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": "series-master-id-3",
+        "showAs": "tentative",
+        "type": "occurrence",
+        "webLink": "https://outlook.office365.com/owa/?itemid=meeting-id-5&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "teamsForBusiness",
+        "allowNewTimeProposals": true,
+        "occurrenceId": "occurrence-id-3",
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+          "response": "accepted",
+          "time": "2025-01-03T16:38:36.8780512Z"
+        },
+        "start": {
+          "dateTime": "2025-04-24T16:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "end": {
+          "dateTime": "2025-04-24T17:00:00.0000000",
+          "timeZone": "UTC"
+        },
+        "location": {
+          "displayName": "Conference Room C",
+          "locationType": "default",
+          "uniqueId": "Conference Room C",
+          "uniqueIdType": "private"
+        },
+        "locations": [
+          {
+            "displayName": "Conference Room C",
+            "locationType": "default",
+            "uniqueId": "Conference Room C",
+            "uniqueIdType": "private"
+          }
+        ],
+        "recurrence": null,
+        "attendees": [
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Lead",
+              "address": "team-lead@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "User",
+              "address": "user@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Team Member F",
+              "address": "team-member-f@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Department Director",
+              "address": "director@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "none",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Product Manager",
+              "address": "product-manager@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Project Manager",
+              "address": "project-manager@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Engineering Lead",
+              "address": "engineering@example.com"
+            }
+          },
+          {
+            "type": "required",
+            "status": {
+              "response": "accepted",
+              "time": "0001-01-01T00:00:00Z"
+            },
+            "emailAddress": {
+              "name": "Design Lead",
+              "address": "design@example.com"
+            }
+          }
+        ],
+        "organizer": {
+          "emailAddress": {
+            "name": "Team Lead",
+            "address": "team-lead@example.com"
+          }
+        },
+        "onlineMeeting": {
+          "joinUrl": "https://teams.microsoft.com/l/meetup-join/example-meeting-join-url-2"
+        }
+      }
+    ]
+  }
