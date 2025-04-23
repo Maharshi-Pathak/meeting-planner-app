@@ -85,6 +85,8 @@ This project uses Tailwind CSS v4, which requires a different setup from v3:
 
 For development and demo purposes, the application includes a mock calendar data file (`mockCalendarData.json`) with sample meeting data. In a production environment, this would be replaced with a real connection to Microsoft Graph API.
 
+See the [Graph Explorer Guide](./GRAPH_EXPLORER_GUIDE.md)  for instructions on how to get your own calendar data for testing.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
